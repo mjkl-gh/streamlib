@@ -1,0 +1,27 @@
+{
+    "name": "streamlib",
+    "version": "0.0.1",
+    "description": "A collection of common tools for and derivatives of the Stream class",
+    "keywords": "Stream, Print",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/mjkl-gh/streamlib"
+    },
+    "authors":
+    [
+      {
+        "name": "mjkl-gh",
+        "email": "9350991+mjkl-gh@users.noreply.github.com",
+        "url": "",
+        "maintainer": true
+      }
+    ],
+    "license": "GNU v3.0",
+    "homepage": "",
+    "dependencies": {
+      "paulo-raca/ArduinoBufferedStreams": "~1.0.7"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}
