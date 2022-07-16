@@ -65,6 +65,6 @@ void StreamBus::write() {
 
 StreamBus::Node::Node(std::string name, Stream* stream) :
         stream{stream}, name{name}, disconnected{false} {
-    Serial.println("Streambus: New node %s"+String(this->name.c_str())+" connected");
+    ESP_LOGI(TAG,"New node %s connected",this->name.c_str())+);
 
 }

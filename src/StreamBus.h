@@ -23,7 +23,8 @@
 #include <vector>
 #include <Stream.h>
 #include <PipedStream.h>
-#include <HardwareSerial.h>
+
+static const char* TAG = "Streambus";
 
 class StreamBus {
 public:
